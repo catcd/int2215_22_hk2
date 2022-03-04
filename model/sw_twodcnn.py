@@ -50,15 +50,15 @@ class SwTwoDCNN:
         # self.input_wordnet_superset_dim = constants.INPUT_WORDNET_SUPERSET_DIM
         # self.output_lstm_wordnet_superset_dim = constants.OUTPUT_LSTM_WORDNET_SUPERSET_DIM
 
-        self.hidden_layers = constants.HIDDEN_LAYERS
+        # self.hidden_layers = constants.HIDDEN_LAYERS
 
-        self.num_of_class = len(constants.ALL_LABELS)
-        self.all_labels = constants.ALL_LABELS
+        # self.num_of_class = len(constants.ALL_LABELS)
+        # self.all_labels = constants.ALL_LABELS
 
-        self.use_weighted_loss = constants.USE_WEIGHTED_LOSS
-        self.loss_weight = constants.LOSS_WEIGHT
+        # self.use_weighted_loss = constants.USE_WEIGHTED_LOSS
+        # self.loss_weight = constants.LOSS_WEIGHT
 
-        self.trained_models = constants.TRAINED_MODELS
+        # self.trained_models = constants.TRAINED_MODELS
 
     def _add_placeholders(self):
         """
