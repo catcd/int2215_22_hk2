@@ -36,15 +36,15 @@ class SwTwoDCNN:
         # self.input_lstm_pos_dim = constant.INPUT_LSTM_POS_DIM
         # self.output_lstm_pos_dim = constant.OUTPUT_LSTM_POS_DIM
 
-        self.use_relation = constants.USE_RELATION
-        self.nrelations = constants.NRELATIONS
-        self.relation_embedding_dim = constants.RELATION_EMBEDDING_DIM
+        # self.use_relation = constants.USE_RELATION
+        # self.nrelations = constants.NRELATIONS
+        # self.relation_embedding_dim = constants.RELATION_EMBEDDING_DIM
 
-        self.use_direction = constants.USE_DIRECTION
-        self.ndirections = constants.NDIRECTIONS
-        self.direction_embedding_dim = constants.DIRECTION_EMBEDDING_DIM
+        # self.use_direction = constants.USE_DIRECTION
+        # self.ndirections = constants.NDIRECTIONS
+        # self.direction_embedding_dim = constants.DIRECTION_EMBEDDING_DIM
 
-        self.use_dependency = self.use_relation or self.use_direction
+        # self.use_dependency = self.use_relation or self.use_direction
 
         # self.use_wordnet_superset = constants.USE_WORDNET_SUPERSET
         # self.input_wordnet_superset_dim = constants.INPUT_WORDNET_SUPERSET_DIM
